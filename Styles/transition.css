@@ -1,0 +1,27 @@
+#Transition-Box
+{
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+  
+ 
+}
+
+#Transition-Box:hover
+{
+    animation-name: effect;
+    animation-duration: 6s; 
+    border-radius: 50%;
+    transition: border-radius 6s;
+
+}
+
+@keyframes effect 
+{
+    from {background-color:#73AD21;}
+    to {background-color:orange;}
+}
+
+
+
